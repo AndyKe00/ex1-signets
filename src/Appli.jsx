@@ -1,6 +1,7 @@
 import './Appli.scss';
 import Entete from './Entete';
 import ListeSignets from './ListeSignets';
+import BtnPlus from './BtnPlus';
 
 export default function Appli() {
   return (
@@ -9,6 +10,9 @@ export default function Appli() {
         <section className="contenuAppli">
           <ListeSignets />
         </section>
+        <footer className="Pied2Page">
+            <BtnPlus />
+        </footer>
     </div>
   );
 }

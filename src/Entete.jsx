@@ -1,4 +1,5 @@
 import './Entete.scss';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 export default function Entete(props)
 {
@@ -7,7 +8,7 @@ export default function Entete(props)
             <div className="logo">Signets (Beta)</div>
             <ul className="navUtilisateur">
                 <li>Andy Ke</li>
-                <li>Icone avatar</li>
+                <li><AccountCircleIcon style={{ fontSize: 30 }}/></li>
             </ul>
         </header>
     );
